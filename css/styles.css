@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+/* CONTAINER */
+.main-container {
+  display: flex;
+
+  background-color: white;
+}
+/* SIDEBAR */
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(43 58 81);
+  color: white;
+  margin-right: 60px;
+  text-align: center;
+  min-width: 370px;
+}
+.contact-link {
+  text-decoration: none;
+  color: white;
+}
+.sidebar-item::marker {
+  color: #f67021;
+}
+.sidebar-info {
+  color: #ababab;
+}
+/* ABOUT ME */
+.about-me-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.about-me-subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 5px solid rgb(43 58 81);
+}
+.about-me-info {
+  margin-bottom: 20px;
+  border-bottom: 5px solid rgb(43 58 81);
+  padding-bottom: 20px;
+}
+/* PROJECT */
+.project-section {
+  margin-bottom: 20px;
+  border-bottom: 5px solid rgb(43 58 81);
+  padding-bottom: 20px;
+}
+.project-title {
+  color: #f67021;
+}
+.project-list {
+  list-style: none;
+}
+.project-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.project-name {
+  font-weight: 700;
+}
+/* WORK EXPERIENCE */
+.experience-section {
+  margin-bottom: 20px;
+  border-bottom: 5px solid rgb(43 58 81);
+  padding-bottom: 20px;
+}
+.experience-title {
+  color: #f67021;
+}
+/* EDUCATION */
+
+.education-title {
+  color: #f67021;
+}
