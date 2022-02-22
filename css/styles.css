@@ -28,23 +28,26 @@ img {
 /* CONTAINER */
 .main-container {
   display: flex;
-
+  width: 1200px;
+  margin: 40px auto;
   background-color: white;
 }
 /* SIDEBAR */
 .sidebar-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   background-color: rgb(43 58 81);
   color: white;
   margin-right: 60px;
-  text-align: center;
-  min-width: 370px;
+
+  width: 370px;
+  padding: 40px 30px;
 }
-.contact-link {
-  text-decoration: none;
-  color: white;
+.sidebar-image {
+  width: 340px;
+  margin-bottom: 10px;
+  border-radius: 50%;
 }
 .sidebar-item::marker {
   color: #f67021;
@@ -52,7 +55,37 @@ img {
 .sidebar-info {
   color: #ababab;
 }
+
+/* TECHNICAL SKILLS */
+.skills-container {
+  margin-bottom: 10px;
+}
+
+/* SOFT SKILLS */
+.soft-skills-container {
+  margin-bottom: 10px;
+}
+
+/* LANGUAGES */
+.languages-container {
+  margin-bottom: 10px;
+}
+
+/* CONTACTS */
+.contacts-list {
+  list-style: none;
+}
+.contact-link {
+  color: #ababab;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #f1f1f1;
+}
 /* ABOUT ME */
+.about-me-container {
+  padding-right: 20px;
+}
 .about-me-title {
   text-align: center;
   margin-bottom: 10px;
@@ -76,14 +109,21 @@ img {
 .project-title {
   color: #f67021;
 }
-.project-list {
-  list-style: none;
+.project-item::marker {
+  color: #f67021;
 }
 .project-item:not(:last-child) {
   margin-bottom: 10px;
 }
 .project-name {
   font-weight: 700;
+}
+.project-link {
+  color: #f67021;
+}
+.project-link:hover,
+.project-link:focus {
+  color: #9b3900;
 }
 /* WORK EXPERIENCE */
 .experience-section {
@@ -97,5 +137,12 @@ img {
 /* EDUCATION */
 
 .education-title {
+  color: #f67021;
+}
+
+.education-item {
+  margin-bottom: 10px;
+}
+.education-item::marker {
   color: #f67021;
 }
